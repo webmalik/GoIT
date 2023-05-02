@@ -3,119 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <title>WebMaLik | Portfolio</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Main content-->
-    <div>
-        <!--About me-->
-        <div>
-            <h2>
-                Бойовий птах. Біологічна зброя. Фронтендер
-            </h2>
-            <h1>
-                Бандерогусак
-            </h1>
-            <p>
-                Довгий час я був звичайним гусаком, ходив і ґа-ґа-кав, але в 2019 році став айтівцем. А минулого року відправився добровольцем у біологічну лабораторію під Харковом. Мене добряче екіпірували, і тепер я гашу ракетами по мацкві. У вільний час полюбляю гуляти волошковими галявинами та розробляю сайти на фрілансі.
-            </p>
-        </div>
-        <!--Projects-->
-        <div>
-            <h3>Projects</h3>
-            <ol>
-                <li>
-                    <a href="https://hellen.p.goit.global/">https://hellen.p.goit.global/</a>
-                    <hr class="doted_line">
-                    [ HTML5, CSS3 ]
-                </li>
-                <li>
-                    <a href="https://cryptohub.p.goit.global/">https://cryptohub.p.goit.global/</a>
-                    <hr class="doted_line">
-                    [ JavaScript ]
-                </li>
-                <li>
-                    <a href="https://kidslike.p.goit.global/">https://kidslike.p.goit.global/</a>
-                    <hr class="doted_line">
-                    [ React.js, Node.js ]
-                </li>
-            </ol>
-        </div>
-        <!-- Company 1 -->
-        <h3>Work Experience</h3>
-        <div>
-            <h4>Бойовий птах  <span>Перша біолабораторія під Харковом</span></h4>
-            <p>March 2022 - up to now   |   Ukraine</p>
-            <ul>
-                <li>Збиття російських воєнних літаків</li>
-                <li>Щотижневі запуски по 4х позиціях, звідки готувалось нападєніє</li>
-                <li>Пуски ракет на мацкву, на чик-чирика, на курс рубля та на бункер</li>
-                <li>Розвідка: нічні командировки у Бєлгород для плантацій бавовни</li>
-            </ul>
-        </div>
-        <div>
-            <h4>Front-End Developer <span>Freelance</span> </h4>
-            <p>October 2019 - up to now   |   Ukraine</p>
-            <ul>
-                <li>Розробка сайтів і мобільних застосунків</li>
-                <li>Виправлення помилок і покращення існуючого функціоналу</li>
-                <li>Підвищення продуктивності SPA і статичних сайтів</li>
-                <li>Рефакторинг існуючих шаблонів і програм</li>
-            </ul>
-        </div>
-        <div>
-            <h4>Гусак звичайний  <span>ФОП Баба Надя</span></h4>
-            <p>June 2014 - February 2015   |   Ukraine</p>
-            <ul>
-                <li>Прогулянки волошковими полями</li>
-                <li>Ґа-ґа-ґа з друзями</li>
-                <li>Залякування перехожих та гостей (іноді наздоганяв та кусав)</li>
-                <li>Охорона консервації та заготовка банок з огірками</li>
-            </ul>
-        </div>
-        <!-- Education -->
-        <h3>Education</h3>
-        <div>
-            <h4><span>Education</span></h4>
-            <h4>Management</h4>
-            <p>September 2009 - June 2014   |   Ukraine</p>
-        </div>
-        <div>
-            <h4><span>GoIT</span></h4>
-            <h4>Fullstack Online</h4>
-            <p>January 2019 - October 2019   |   Ukraine</p>
+    <!--Sidebar-->
+    <div class="site row">
+        <aside class="col-sm-3 main-aside">
+            <img src="img/Frame%201.png" alt="My photo">
+            <div>
+                <div class="aside-block contacts">
+                    <h3>Contacts</h3>
+                    <ul class="contacts-ul">
+                        <li><span>C:</span> <a href="tel:+38 888 888 88 88">+38 888 888 88 88</a></li>
+                        <li><span>E:</span> <a href="mailto: gaaga@gmail.com">gaaga@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="aside-block list-skills">
+                    <h3>Tech Skills</h3>
+                    <ul>
+                        <li>HTML, CSS</li>
+                        <li>JavaScript</li>
+                        <li>React.js</li>
+                        <li>Node.js</li>
+                        <li>Запуск ракет</li>
+                        <li>Ехолокація ворожої техніки</li>
+                        <li>Біологічні дослідження</li>
+                        <li>Високоточні удари по мацкві</li>
+                    </ul>
+                </div>
+                <div class="aside-block list-skills">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Scrum</li>
+                        <li>Agile</li>
+                        <li>GTD</li>
+                        <li>Teamwork</li>
+                        <li>Незламність</li>
+                        <li>Почуття гумору</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <!-- Main content-->
+        <div class="col-sm-9 main-content">
+            <!--About me-->
+            <div>
+                <h2>
+                    Бойовий птах. Біологічна зброя. Фронтендер
+                </h2>
+                <h1>
+                    Бандерогусак
+                </h1>
+                <p>
+                    Довгий час я був звичайним гусаком, ходив і ґа-ґа-кав, але в 2019 році став айтівцем. А минулого року відправився добровольцем у біологічну лабораторію під Харковом. Мене добряче екіпірували, і тепер я гашу ракетами по мацкві. У вільний час полюбляю гуляти волошковими галявинами та розробляю сайти на фрілансі.
+                </p>
+            </div>
+            <!--Projects-->
+            <div class="list-site">
+                <h3>Projects</h3>
+                <ul>
+                    <li class="list-site-item">
+                        <a href="https://hellen.p.goit.global/">https://hellen.p.goit.global/</a>
+                    </li>
+                    <li class="list-site-item">
+                        <a href="https://cryptohub.p.goit.global/">https://cryptohub.p.goit.global/</a>
+                    </li>
+                    <li class="list-site-item">
+                        <a href="https://kidslike.p.goit.global/">https://kidslike.p.goit.global/</a>
+                    </li>
+                </ul>
+                <div class="label-inline">
+                    [ HTML5, CSS3 ]<br>
+                    [ JavaScript ]<br>
+                    [ React.js, Node.js ]<br>
+                </div>
+            </div>
+            <!-- Company 1 -->
+            <h3>Work Experience</h3>
+            <div>
+                <h4>Бойовий птах  <span>Перша біолабораторія під Харковом</span></h4>
+                <p class="date">March 2022 - up to now   |   Ukraine</p>
+                <ul class="content-list">
+                    <li>Збиття російських воєнних літаків</li>
+                    <li>Щотижневі запуски по 4х позиціях, звідки готувалось нападєніє</li>
+                    <li>Пуски ракет на мацкву, на чик-чирика, на курс рубля та на бункер</li>
+                    <li>Розвідка: нічні командировки у Бєлгород для плантацій бавовни</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Front-End Developer <span>Freelance</span> </h4>
+                <p class="date">October 2019 - up to now   |   Ukraine</p>
+                <ul class="content-list">
+                    <li>Розробка сайтів і мобільних застосунків</li>
+                    <li>Виправлення помилок і покращення існуючого функціоналу</li>
+                    <li>Підвищення продуктивності SPA і статичних сайтів</li>
+                    <li>Рефакторинг існуючих шаблонів і програм</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Гусак звичайний  <span>ФОП Баба Надя</span></h4>
+                <p class="date">June 2014 - February 2015   |   Ukraine</p>
+                <ul class="content-list">
+                    <li>Прогулянки волошковими полями</li>
+                    <li>Ґа-ґа-ґа з друзями</li>
+                    <li>Залякування перехожих та гостей (іноді наздоганяв та кусав)</li>
+                    <li>Охорона консервації та заготовка банок з огірками</li>
+                </ul>
+            </div>
+            <!-- Education -->
+            <h3>Education</h3>
+            <div>
+                <h4><span>Національний біологічний університет ім. Степана Бандери</span></h4>
+                <h4>Management</h4>
+                <p class="date">September 2009 - June 2014   |   Ukraine</p>
+            </div>
+            <div>
+                <h4><span>GoIT</span></h4>
+                <h4>Fullstack Online</h4>
+                <p class="date">January 2019 - October 2019   |   Ukraine</p>
+            </div>
         </div>
     </div>
-    <!--Sidebar-->
-    <aside>
-        <img src="img/Frame%201.png" alt="My photo" width="300 px">
-        <div>
-            <h3>Contacts</h3>
-            <ul>
-                <li>C: <a href="tel:+38 888 888 88 88"></a>+38 888 888 88 88</li>
-                <li>E: <a href="mailto: gaaga@gmail.com"></a>gaaga@gmail.com</li>
-            </ul>
-            <h3>Tech Skills</h3>
-            <ul>
-                <li>HTML, CSS</li>
-                <li>JavaScript</li>
-                <li>React.js</li>
-                <li>Node.js</li>
-                <li>Запуск ракет</li>
-                <li>Ехолокація ворожої техніки</li>
-                <li>Біологічні дослідження</li>
-                <li>Високоточні удари по мацкві</li>
-            </ul>
-            <h3>Soft Skills</h3>
-            <ul>
-                <li>Scrum</li>
-                <li>Agile</li>
-                <li>GTD</li>
-                <li>Teamwork</li>
-                <li>Незламність</li>
-                <li>Почуття гумору</li>
-            </ul>
-        </div>
-    </aside>
 </body>
 </html>
